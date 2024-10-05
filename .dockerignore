@@ -1,0 +1,42 @@
+# .dockerignore
+# Ignore version control system files
+.git
+.gitignore
+
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+
+# Ignore node modules (if using Node.js)
+node_modules
+
+# Ignore Python virtual environments (if using Python)
+venv
+*.pyc
+__pycache__
+
+# Ignore build artifacts
+build
+dist
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore IDE-specific files
+.vscode
+.idea
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore test and documentation directories
+test
+tests
+docs
